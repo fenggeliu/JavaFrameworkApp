@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="E:/Library/Google Drive/AndroidStudio/JavaFramework/app/src/main/assets/databases/JavaFramework.db"/><window><current_tab id="1"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="3137"/><expanded_item id="0" parent="-1"/><expanded_item id="1" parent="-1"/><expanded_item id="2" parent="-1"/><expanded_item id="3" parent="-1"/></tab_structure><tab_browse><current_table name="Methods"/><default_encoding codec=""/><browsetable_info data="AAAAAwAAAB4AcwBxAGwAaQB0AGUAXwBzAGUAcQB1AGUAbgBjAGUDhF2QAAACxgAAAAAAAAAAAAAAAAD/////AAAADgBNAGUAdABoAG8AZABzAAAABQAAAAAAAAABAAAAAgAAAI8AAAACAAAABgAAAAAAAAABAAAAAAAAAAAA///////////mUkDQAAB/9wAAAAAAAAAAAAAAAAH/////"/></tab_browse><tab_sql><sql name="SQL 1">INSERT INTO Methods (name, bundle_id, 
+interface_id, interface, class_id, class, 
+type_id, type, return, return_2,
+objclass_1, obj_1, objclass_2, obj_2,
+objclass_3, obj_3, description, class_2)
+values ('parseFloat', 6,
+ 0, 'Primitive', 0, 'Number', 
+ 1, 'Number', 'float', NULL,
+ 'String', 's', '*int', '*radix',
+ NULL, NULL, NULL, NULL);
+SELECT * FROM METHODS WHERE class = 'Number';</sql><sql name="SQL 2">update Methods
+set class_id = 15, interface = 'Collection', interface_id = 2
+where class = 'Vector';</sql><sql name="SQL 4">INSERT INTO Methods (name, bundle_id, 
+interface_id, interface, class_id, class, 
+type_id, type, return, return_2,
+objclass_1, obj_1, objclass_2, obj_2,
+objclass_3, obj_3, description, class_2)
+values ('Math.random', 11,
+ 0, 'Primitive', 2, 'Math', 
+ NULL, NULL, 'double', '&gt;0, &lt;1',
+ NULL, NULL, NULL, NULL,
+ NULL, NULL, NULL, NULL);
+SELECT * FROM METHODS WHERE class = 'Math';</sql><sql name="SQL 5">INSERT INTO Methods (name, bundle_id, 
+interface_id, interface, class_id, class, 
+type_id, type, return, return_2,
+objclass_1, obj_1, objclass_2, obj_2,
+objclass_3, obj_3, description, class_2)
+values ('Character.toString', 17,
+ 0, 'Primitive', 1, 'Character', 
+ 0, NULL, 'String', NULL,
+ 'char', 'ch', NULL, NULL,
+ NULL, NULL, NULL, NULL);
+SELECT * FROM METHODS WHERE class = 'Character';</sql><sql name="SQL 6">INSERT INTO Methods (name, bundle_id, 
+interface_id, interface, class_id, class, 
+type_id, type, return, return_2,
+objclass_1, obj_1, objclass_2, obj_2,
+objclass_3, obj_3, description, class_2,
+objclass_4, obj_4)
+values ('String.valueOf', 39,
+ 1, 'Data Structure', 3, 'String', 
+ 0, NULL, 'Number', NULL,
+--'int', 'begin', 'int', 'end',
+ 'Numbersubclass', 'number', NULL, NULL,
+ NULL, NULL, 'This method returns the string representation of the passed argument.', NULL,
+ NULL, NULL);
+SELECT * FROM METHODS WHERE class = 'String';</sql><sql name="SQL 7">INSERT INTO Methods (name, bundle_id, 
+interface_id, interface, class_id, class, 
+type_id, type, return, return_2,
+objclass_1, obj_1, objclass_2, obj_2,
+objclass_3, obj_3, description, class_2,
+objclass_4, obj_4)
+values ('Arrays.toString', 45,
+ 1, 'Data Structure', 4, 'Arrays', 
+ 0, NULL, 'String', NULL,
+--'int', 'begin', 'int', 'end',
+ 'Object[]', 'obj', NULL, NULL,
+ NULL, NULL, NULL, NULL,
+ NULL, NULL);
+SELECT * FROM METHODS WHERE class = 'Arrays';</sql><sql name="SQL 8">INSERT INTO Methods (interface_id, interface,
+ class_id, class, name, bundle_id, 
+type_id, type, return, return_2,
+objclass_1, obj_1, objclass_2, obj_2,
+objclass_3, obj_3, description, class_2,
+objclass_4, obj_4)
+values ( 1, 'Data Structure',
+ 8, 'Hashtable', 'values', 77,
+ 13, 'Hashtable', 'Collection&amp;lt;V&amp;gt;', NULL,
+--'K', 'key', 'V', 'value',
+--'Object', 'key', NULL, NULL,
+ NULL, NULL, NULL, NULL,
+ NULL, NULL, 'Returns a Collection view of the values contained in this map.', NULL,
+ NULL, NULL);
+SELECT * FROM METHODS WHERE class = 'Hashtable';</sql><current_tab id="1"/></tab_sql></sqlb_project>

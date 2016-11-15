@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Java Framework</string>
+    <string name="edit_message">Look for a Java Object</string>
+    <string name="button_search">Search</string>
+    <string name="title_activity_final">Method Details</string>
+    <string name="methods">Methods</string>
+    <string name="title_activity_second">Class</string>
+</resources>
