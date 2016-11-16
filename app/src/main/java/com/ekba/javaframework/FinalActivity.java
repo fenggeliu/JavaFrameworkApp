@@ -43,7 +43,9 @@ public class FinalActivity extends AppCompatActivity {
                     + classHelper(cursor, 11)
                     + "</font>" + objHelper(cursor, 12)
                     + classHelper(cursor, 16)
-                    + "</font>" + objHelper(cursor, 17) + ")";
+                    + "</font>" + objHelper(cursor, 17)
+                    + classHelper(cursor, 18)
+                    + "</font>" + objHelper(cursor, 19) + ")";
             /*titles.add(temp);
             prefix.add(stringHelper(cursor, "type"));
             returnType.add(stringHelper(cursor, "return") + " " + stringHelper(cursor, "return_2"));
